@@ -15,7 +15,6 @@ namespace WebApiDemoG.Formatters
         }
         protected override bool CanReadType(Type? type)
         {
-            string a = "a";
             return type == typeof(StudentModel);
         }
 
